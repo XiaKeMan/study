@@ -1,0 +1,26 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//ibatis.org//DTD Mapper 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.guazi.webs.dao.mapper.StudentAddressMapper">-->
+<!--    <resultMap id="BaseResultMap" type="com.guazi.boot.spring.model.po.StudentAddress">-->
+<!--        <id column="id" property="id" jdbcType="BIGINT"/>-->
+<!--        <result column="address" property="address" jdbcType="VARCHAR"/>-->
+<!--        <result column="student_id" property="studentId" jdbcType="BIGINT"/>-->
+<!--    </resultMap>-->
+<!--    <sql id="Base_Column_List">-->
+<!--      id, student_id, address-->
+<!--    </sql>-->
+
+<!--    <select id="getByUId" resultMap="BaseResultMap" parameterType="java.lang.Long">-->
+<!--        select-->
+<!--        <include refid="Base_Column_List"/>-->
+<!--        from student_address-->
+<!--        where student_id = #{uid}-->
+<!--    </select>-->
+
+<!--    <insert id="insert" parameterType="com.guazi.boot.spring.model.po.StudentAddress" >-->
+<!--        insert into student_address(address,student_id) values (#{address},#{studentId})-->
+<!--    </insert>-->
+
+
+<!--</mapper>-->
